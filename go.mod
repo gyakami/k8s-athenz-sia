@@ -1,8 +1,8 @@
 module github.com/AthenZ/k8s-athenz-sia/v3
 
-go 1.24.12
+go 1.25.6
 
-replace golang.org/x/net => golang.org/x/net v0.38.0
+replace golang.org/x/net => golang.org/x/net v0.49.0
 
 replace golang.org/x/text => golang.org/x/text v0.23.0
 
@@ -69,8 +69,8 @@ require (
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/spf13/pflag v1.0.6 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	golang.org/x/crypto v0.36.0 // indirect
-	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/crypto v0.47.0 // indirect
+	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/oauth2 v0.28.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
