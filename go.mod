@@ -2,6 +2,8 @@ module github.com/AthenZ/k8s-athenz-sia/v3
 
 go 1.25.6
 
+replace golang.org/x/crypto => golang.org/x/crypto v0.47.0
+
 replace golang.org/x/net => golang.org/x/net v0.49.0
 
 replace golang.org/x/text => golang.org/x/text v0.23.0
